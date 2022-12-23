@@ -1,5 +1,5 @@
 body {
-  font-family: cursive;
+  font-family: Times New Roman, cursive;
 }
 
 nav.home-nav {
@@ -16,7 +16,7 @@ button.nav {
   height: 60%;
   border: none;
   border-bottom: 3px solid white;
-  opacity: 50%;
+  opacity: 70%;
   padding: 20px;
   margin: 10px;
   background-color: rgb(43, 47, 47);
@@ -30,7 +30,7 @@ button.selected {
   height: 60%;
   border: none;
   border-bottom: 5px solid rgb(36, 134, 200);
-  opacity: 80%;
+  opacity: 90%;
   padding: 20px;
   margin: 10px;
   background-color: rgb(43, 47, 47);
