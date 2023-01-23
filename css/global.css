@@ -5,3 +5,11 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }   
+
+a:link {
+  color: dodgerblue;
+}
+
+a:hover {
+  color: chartreuse;
+}
