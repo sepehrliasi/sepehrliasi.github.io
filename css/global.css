@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -7,7 +7,6 @@ nav.home-nav {
   flex-direction: row;
   background: linear-gradient(to right,#2c2f34,#393e46);
   align-items: center;
-  /* justify-content: space-around; */
 }
 
 button.nav {
@@ -58,4 +57,11 @@ footer {
   font-size: 20px;
   color: white;
   background: linear-gradient(to right,#393e46,#222831);
-}
+} */
+body {
+  margin-top: 0px;
+  background-image: url('../resources/bg-blur.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}   
