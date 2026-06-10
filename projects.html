@@ -10,33 +10,39 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<div style="min-height: 100vh">
+
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="padding-top: 15px; padding-bottom: 15px;">
+  <div class="site-container">
+    <header class="site-header">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="padding-top: 10px; padding-bottom: 10px;">
         <div class="container-fluid">
-            <ul class="navbar-nav">
-              <li>
-                <img width="65" class="rounded-pill" src="resources/Logo4.png" style="border-right: 1px #909090 solid; margin-right: 20px;">
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html" style="border-right: 1px #909090 solid;">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="projects.html" style="border-right: 1px #909090 solid;"><h5>Projects</h5></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="work.html" style="border-right: 1px #909090 solid;">Work Experience</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html" style="border-right: 1px #909090 solid;">Contact</a>
-              </li>
-            </ul>
-          </div>
-    </nav>
-    <div class="container-lg p-5 my-3 text-white" style="border-radius: 5px; background-color:rgb(45, 52, 46);">
-      <h4>💰Automated Trading in Cryptocurrency Market based on Predictions using Deep Learning</h4>
+          <ul class="navbar-nav">
+            <li>
+              <img width="70" class="rounded-pill" src="resources/Logo4.png" style="border-right: 4px #909090 solid; margin-right: 15px;">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" style="border-right: 1px #D3D9D4 solid;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html" style="border-right: 1px #D3D9D4 solid;"><h5><b>Projects</b></h5></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html" style="border-right: 1px #D3D9D4 solid;">Work Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" style="border-right: 1px #D3D9D4 solid;">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-lg my-5">
+      <section class="card-block p-5 rounded-3 mb-4 text-white">
+        <h4>💰 Automated Trading in Cryptocurrency Market based on Predictions using Deep Learning</h4>
         <hr>
-        <p>The main goal of this project is to investigate the existence of methods for predicting cryptocurrency prices and then simulating 
+        <p>
+          The main goal of this project is to investigate the existence of methods for predicting cryptocurrency prices and then simulating 
           an automatic trading strategy based on that prediction; So that it can be used to make a profit in the digital currency markets. 
           This attempt can not only be an important step in the field of automatic trading of cryptocurrencies, but also
           it can help financial analysts to better evaluate and increase their confidence about the future of this market.
@@ -44,17 +50,21 @@
           period of time with acceptable accuracy. We used LSTM model for this purpose. In the second stage, an attempt has been made to design a strategy for 
           automatic trading using the built model in such a way that these transactions will eventually lead to profit.
         </p>
-        <p>In the pictures below, there is the result of predictions of Bitcoin using LSTM model and financial Indicators. This is a consecutive prediction.
+        <p>
+          In the pictures below, there is the result of predictions of Bitcoin using LSTM model and financial Indicators. This is a consecutive prediction.
         </p>
         <img src="resources/Bitcoin.png" alt="">
-        <p>Here is the accuracy and obtained signals for the autotrading process:</p>
-        <img src="resources/Trade.png" alt="">
+        <p>
+          Here is the accuracy and obtained signals for the autotrading process:</p>
+          <img src="resources/Trade.png" alt="">
         <p>A paper is going to be published soon about these works with the appreciated help of Dr. Alaeiyan.</p>
-    </div>
-    <div class="container-lg p-5 my-3 text-white" style="border-radius: 5px; background-color:rgb(26, 30, 27);">
-      <h4>🛍UniMarket</h4>
+      </section>
+
+      <section class="card-block p-5 rounded-3 mb-4 text-white">
+        <h4>🛍 UniMarket</h4>
         <hr>
-        <p>This project has been done in a group of three members using agile methods. This is a website in which students can register and after 
+        <p>
+          This project has been done in a group of three members using agile methods. This is a website in which students can register and after 
           they are validated by admins, they can sell or buy goods like their foods or books. Moreover a feature is implemented to let organizations 
           put their job offers and hire the best suit among all the students. Similarly, students can upload their resume for their desired job offers.
           The following pictures are some screenshots from this website!
@@ -64,32 +74,40 @@
           <hr>
           <img src="resources/unimarket2.jpg" alt="" style="width: 90%;">
         </div>
-    </div>
-    <div class="container-lg p-5 my-3 text-white" style="border-radius: 5px; background-color:rgb(45, 52, 46);">
-      <h4>👦68 Facial Points Detection</h4>
+      </section>
+
+      <section class="card-block p-5 rounded-3 mb-4 text-white">
+        <h4>👦 68 Facial Points Detection</h4>
         <hr>
-        <p>We carried out a project in which the trained model could detect faces in an input picture and recognize 68 facial points for every 
+        <p>
+          We carried out a project in which the trained model could detect faces in an input picture and recognize 68 facial points for every 
           face in the image. Python libraries like numpy, pickle, tensorflow and keras were used to create a sequential CNN model and the training process
           was run on the google colab!
         </p>
         <img src="resources/68-facial-landmarks.jpg" alt="" style="width: 30%;">
-    </div>
-    <div class="container-lg p-5 my-3 text-white" style="border-radius: 5px; background-color:rgb(26, 30, 27);">
-      <h4>🎲Simple Game</h4>
+      </section>
+
+      <section class="card-block p-5 rounded-3 mb-4 text-white">
+        <h4>🎲 Simple Game</h4>
         <hr>
-        <p>This is a simple multi-player game created using <b>Java</b> and <b>JavaFX</b>. Each player can change his block type by using some defined keys
-           and there is a scoreboard to show the result. A preview can be seen below:</p>
-    </div>
-    <div class="container-lg p-5 my-3 text-white" style="border-radius: 5px; background-color:rgb(45, 52, 46);">
-      <h4>📰Poster Contest of UND</h4>
+        <p>
+          This is a simple multi-player game created using <b>Java</b> and <b>JavaFX</b>. Each player can change his block type by using some defined keys
+          and there is a scoreboard to show the result. A preview can be seen below:
+        </p>
+      </section>
+
+      <section class="card-block p-5 rounded-3 mb-4 text-white">
+        <h4>📰 Poster Contest of UND</h4>
         <hr>
-        <p>Here is a photo of my designed poster titled "Cybersecurity in Autonomous Cars; Threats & Solutions" in the lobby of North Dakota University.
+        <p>
+          Here is a photo of my designed poster titled "Cybersecurity in Autonomous Cars; Threats & Solutions" in the lobby of North Dakota University.
           My presentation has been admitted among the top ones in this poster contest "Cybersecurity Awareness & Research Simposium"!
         </p>
         <img src="resources/Poster-CARS2023.jpg" alt="" style="width: 50%;">
-    </div>
+      </section>
+    </main>
+  </div>
 </body>
-</div>
 
 <div>
 <footer class="bg-dark text-center text-white">
